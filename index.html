@@ -1,0 +1,44 @@
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <title>Expence Tracker</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<header>
+        <h1>Expense Tracker ™</h1>
+    <p>Track your expenses and income easily!</p>
+</header>        
+<body>
+    <div class="container">
+        <div class="balance">
+            <h3>Your Balance</h3>
+            <p id="balance">₹0.00</p>
+        </div>
+        <div class="income-expense">
+            <div>
+                <h4>Income</h4>
+                <p class="money-plus" id="money-plus">₹0.00</p>
+            </div>
+            <div>
+                <h4>Expense</h4>
+                <p  class="money-minus" id="money-minus">₹0.00</p>
+            </div>
+        </div>
+      <h3>Transactions</h3>
+    <ul id="list" class="list"></ul>
+
+    <h3>Add new transaction</h3>
+    <form id="form">
+      <input type="text" id="text" placeholder="Enter description" />
+      <input type="number" id="amount" placeholder="Enter amount (negative = expense)" />
+      <button class="btn">Add Transaction</button>
+    </form>
+  </div>  
+</body>
+<footer>
+    <p>© 2025 Expense Tracker. All rights reserved.</p>
+</footer>
+</html>
