@@ -1,7 +1,11 @@
 📊Expense Tracker App
+
 A minimalist and fashionable web-based Expense Tracker that enables users
+
 to handle their finances by monitoring income and expenses.
+
 Developed with HTML, CSS, and JavaScript 
+
 with localStorage support — so your data remains even after reloading the page!
 
 Features:
